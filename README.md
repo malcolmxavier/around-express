@@ -1,17 +1,11 @@
-# Around the U.S. Front End + Back End
+Malcolm X's 4th, 5th, 6th, 7th, 8th, 9th, 10th, 11th, and 12th Yandex Project v1.0
 
-## Directories
+This is a sample project to demonstrate grasp of HTML, CSS, JS, React, and Express skills.
 
-`/public` — static files from the build of the React front-end app.
+This project employs HTML, CSS, JS, Nested BEM structure, OOP, Webpack, Babel, React, and Express.
 
-`/data` — JSON files to temporarily emulate database integration.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-`/routes` — routing files.
+Improvements to code, to add form validation, add card deletion functionality, and increase efficiency and adherence to specifications provided by Yandex, will be made as necessary.
 
-All other directories are optional and may be created by the developer if necessary. 
-
-## Running the Project
-
-`npm run start` — to launch the server.
-
-`npm run dev` — to launch the server with the hot reload feature.
+https://malcolmxavier.github.io/around-express/
