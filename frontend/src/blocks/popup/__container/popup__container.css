@@ -1,6 +1,0 @@
-@import url('./_type/popup__container_type.css');
-
-.popup__container {
-  position: relative;
-  justify-content: center;
-}
