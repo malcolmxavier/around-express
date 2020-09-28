@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {"express": "^4.17.1"},
   "devDependencies": {
+    "nodemon": "^2.0.4",
     "eslint": "^7.9.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-plugin-import": "^2.22.0",
@@ -14,16 +15,18 @@
     "eslint-config-airbnb-base": "^14.2.0"
   },
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/malcolmxavier/around-react.git"
+    "url": "git+https://github.com/malcolmxavier/around-express.git"
   },
   "author": "Malcolm Xavier",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/malcolmxavier/around-react/issues"
+    "url": "https://github.com/malcolmxavier/around-express/issues"
   },
-  "homepage": "https://github.com/malcolmxavier/around-react#readme"
+  "homepage": "https://github.com/malcolmxavier/around-express#readme"
 }
