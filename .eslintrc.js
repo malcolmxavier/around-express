@@ -1,6 +1,6 @@
 module.exports = {
   env: {
-    commonjs: true,
+    browser: true,
     es2021: true,
   },
   extends: [
@@ -8,12 +8,12 @@ module.exports = {
   ],
   parserOptions: {
     ecmaFeatures: {
+      jsx: true,
     },
     ecmaVersion: 12,
+    sourceType: 'module',
   },
-  plugins: [
-  ],
   rules: {
-    'no-underscore-dangle': 'allow',
+    'no-underscore-dangle': ['error', { allow: ['_id'] }],
   },
 };
