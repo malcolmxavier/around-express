@@ -1,4 +1,4 @@
-Malcolm X's 12th Yandex Project v1.0
+Malcolm X's 12th Yandex Project v2.0
 
 This is a sample project to demonstrate grasp of JS Express skills.
 
