@@ -9,7 +9,7 @@ function getUsers(req, res) {
 }
 
 function getOneUser(req, res) {
-  return User.find({ _id: req.params._id })
+  return User.findById({ _id: req.params._id })
     .then((user) => res.status(StatusCodes.OK).send(user))
     .catch((err) => {
       if (err.name === 'DocumentNotFoundError') {
